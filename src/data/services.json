@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "e-commerce-application",
+    "title": "E-Commerce Application",
+    "subtitle": "E-Commerce Web Application Development",
+    "bgSrc": "/images/service_hero_bg.jpeg",
+    "image": "/images/ecom.jpg",
+    "description": "We build robust, scalable, and conversion-focused e-commerce web applications tailored to your business goals...",
+    "process": [
+      {
+        "icon": "/images/icons/req.png",
+        "title": "Requirement Gathering",
+        "subtitle": "We start by understanding your business, goals, and challenges."
+      },
+      {
+        "icon": "/images/icons/ux.png",
+        "title": "UI/UX Designing",
+        "subtitle": "We create intuitive and visually appealing user interfaces."
+      },
+      {
+        "icon": "/images/icons/dev.png",
+        "title": "Development",
+        "subtitle": "We build your product using clean, scalable, and secure code."
+      },
+      {
+        "icon": "/images/icons/testing.png",
+        "title": "Testing & Quality Assurance",
+        "subtitle": "We ensure your product works flawlessly across all use cases."
+      },
+      {
+        "icon": "/images/icons/deploy.png",
+        "title": "Deployment",
+        "subtitle": "We launch your product with precision and minimal downtime."
+      },
+      {
+        "icon": "/images/icons/sup.png",
+        "title": "Support & Maintenance",
+        "subtitle": "We stay with you after launch to ensure smooth performance."
+      }
+    ],
+    "features": [
+      "Product Management",
+      "Shopping Cart & Checkout",
+      "Payment Gateway Integration",
+      "Shipping & Order Management",
+      "SEO & Marketing Tools",
+      "Admin Dashboard",
+      "Multi-vendor marketplace setup",
+      "Progressive Web App (PWA)",
+      "AI-based product recommendations",
+      "Live chat & chatbot integration",
+      "Infographic design"
+    ]
+  }
+]

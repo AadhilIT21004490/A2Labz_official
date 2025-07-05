@@ -20,19 +20,19 @@ const copyrightLinks = [
 const serviceMenu = [
   {
     title: 'UI/UX design',
-    href: '/service/service-details',
+    href: '/service/ux-ui-design',
   },
   {
-    title: 'WP development',
-    href: '/service/service-details',
+    title: 'Ai Solutions',
+    href: '/service/data-science-ai',
   },
   {
-    title: 'Digital marketing',
-    href: '/service/service-details',
+    title: 'E-commerce web',
+    href: '/service/e-commerce',
   },
   {
-    title: 'React development',
-    href: '/service/service-details',
+    title: 'Company Website',
+    href: '/service/company-website',
   },
 ];
 
@@ -68,7 +68,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
               <Div className="cs-footer_item">
                 <Newsletter
                   title="Subscribe"
-                  subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
+                  subtitle=""
                   placeholder="example@gmail.com"
                 />
               </Div>

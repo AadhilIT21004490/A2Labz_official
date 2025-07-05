@@ -195,23 +195,23 @@ export default function Header({ variant }) {
                         <ul>
                           <li>
                             <Link
-                              href="/service"
+                              href="/service/custom-web-app"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Services
+                              Custom Web Applications
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/service/service-details"
+                              href="/service/company-website"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Service Details
+                              Company Websites
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/service/service-details"
+                              href="/service/e-commerce"
                               onClick={() => setMobileToggle(false)}
                             >
                               E-Commerce Website Development
@@ -219,7 +219,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="/service/service-details"
+                              href="/service/software"
                               onClick={() => setMobileToggle(false)}
                             >
                               Software Development
@@ -227,15 +227,15 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="/service/service-details"
+                              href="/service/branding"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Web Application Development
+                              Branding
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="/service/service-details"
+                              href="/service/data-science-ai"
                               onClick={() => setMobileToggle(false)}
                             >
                               Data Science & Ai Solution Development
@@ -243,7 +243,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="/service/service-details"
+                              href="/service/mobile-app"
                               onClick={() => setMobileToggle(false)}
                             >
                               Mobile Application Development
@@ -251,7 +251,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="/service/service-details"
+                              href="/service/seo"
                               onClick={() => setMobileToggle(false)}
                             >
                               SEO Operations
@@ -259,7 +259,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="/service/service-details"
+                              href="/service/cloud-solutions"
                               onClick={() => setMobileToggle(false)}
                             >
                               Cloud Solutions

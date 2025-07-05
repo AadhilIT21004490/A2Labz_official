@@ -8,9 +8,9 @@ import Team from "@/app/ui/Team";
 
 const teamData = [
   {
-    memberImage: '/images/member_1.jpeg',
-    memberName: 'Melon Bulgery',
-    memberDesignation: 'Product Designer',
+    memberImage: '/images/adl.jpg',
+    memberName: 'Aadhil Shihabdeen',
+    memberDesignation: 'Founder/Snr.Data Scientist',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -19,9 +19,9 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_2.jpeg',
-    memberName: 'Olinaz Fushi',
-    memberDesignation: 'Product Designer',
+    memberImage: '/images/adlj.jpg',
+    memberName: 'Aadhil Junain',
+    memberDesignation: 'Founder/Snr.Software Engineer',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -30,9 +30,9 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_3.jpeg',
-    memberName: 'David Elone',
-    memberDesignation: 'React Developer',
+    memberImage: '/images/sabeel.jpg',
+    memberName: 'Sabeel Ahamed',
+    memberDesignation: 'Software Engineer',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -41,9 +41,9 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_4.jpeg',
-    memberName: 'Melina Opole',
-    memberDesignation: 'WP Developer',
+    memberImage: '/images/haleem.jpg',
+    memberName: 'Aleem Jabeer',
+    memberDesignation: 'Business Analyst',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -52,9 +52,9 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_3.jpeg',
-    memberName: 'David Elone',
-    memberDesignation: 'React Developer',
+    memberImage: '/images/shaf2.jpg',
+    memberName: 'Shafa Bishirhafi',
+    memberDesignation: 'Data Scientist',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -63,9 +63,9 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_4.jpeg',
-    memberName: 'Melina Opole',
-    memberDesignation: 'WP Developer',
+    memberImage: '/images/han.jpg',
+    memberName: 'Hanouf Fawsikdeen ',
+    memberDesignation: 'Cybersecurity Analyst',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -74,9 +74,9 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_1.jpeg',
-    memberName: 'Melon Bulgery',
-    memberDesignation: 'Product Designer',
+    memberImage: '/images/ashari.jpg',
+    memberName: 'Ashari Aowfer',
+    memberDesignation: 'Consultant-Business',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -85,9 +85,20 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_2.jpeg',
-    memberName: 'Olinaz Fushi',
-    memberDesignation: 'Product Designer',
+    memberImage: '/images/Dana.jpg',
+    memberName: 'Dana Maks',
+    memberDesignation: 'Dev Ops Engieer',
+    memberSocial: {
+      linkedin: '/',
+      twitter: '/',
+      youtube: '/',
+      facebook: '/',
+    },
+  },
+  {
+    memberImage: '/images/sham2.jpg',
+    memberName: 'Shamla Bishirhafi',
+    memberDesignation: 'Jnr.Business Analyst',
     memberSocial: {
       linkedin: '/',
       twitter: '/',

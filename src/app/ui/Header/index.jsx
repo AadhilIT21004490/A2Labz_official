@@ -173,20 +173,13 @@ export default function Header({ variant }) {
                               Team
                             </Link>
                           </li>
-                          <li>
-                            <Link
-                              href="/faq"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              FAQ
-                            </Link>
-                          </li>
+                          
                         </ul>
                       </DropDown>
                     </li>
                     <li className="menu-item-has-children">
                       <Link
-                        href="/service"
+                        href="/"
                         onClick={() => setMobileToggle(false)}
                       >
                         Services
@@ -268,7 +261,7 @@ export default function Header({ variant }) {
                         </ul>
                       </DropDown>
                     </li>
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                       <Link
                         href="/portfolio"
                         onClick={() => setMobileToggle(false)}
@@ -295,6 +288,14 @@ export default function Header({ variant }) {
                           </li>
                         </ul>
                       </DropDown>
+                    </li> */}
+                    <li>
+                      <Link
+                        href="/portfolio"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        Portfolio
+                      </Link>
                     </li>
                     {/* Blog Section Below */}
                     {/* <li className="menu-item-has-children">
@@ -428,11 +429,11 @@ export default function Header({ variant }) {
         <Div className="cs-side_header_in">
           <Div className="cs-side_header_shape" />
           <Link className="cs-site_branding" href="/">
-            <img src="/images/footer_logo.svg" alt="Logo" />
+            <img src="/images/a2lg_footer.png" alt="Logo" />
           </Link>
           <Div className="cs-side_header_box">
             <h2 className="cs-side_header_heading">
-              Do you have a project in your <br /> mind? Keep connect us.
+              Do you have a project in your <br /> mind? Let's Talk...
             </h2>
           </Div>
           <Div className="cs-side_header_box">
@@ -441,13 +442,13 @@ export default function Header({ variant }) {
           <Div className="cs-side_header_box">
             <Newsletter
               title="Subscribe"
-              subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
+              subtitle="We’re here to turn ideas into impactful digital experiences and help your business reach its fullest potential."
               placeholder="example@gmail.com"
             />
           </Div>
-          <Div className="cs-side_header_box">
+          {/* <Div className="cs-side_header_box">
             <SocialWidget />
-          </Div>
+          </Div> */}
         </Div>
       </Div>
     </>

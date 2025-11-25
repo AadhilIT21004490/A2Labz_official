@@ -37,7 +37,7 @@ export default function FaqPage() {
                   <Button
                     variant="cs-type2"
                     btnLink="/faq"
-                    btnText="Pricing"
+                    btnText="Support"
                     icon={
                       <Icon icon="material-symbols:content-copy-outline-rounded" />
                     }
@@ -57,7 +57,7 @@ export default function FaqPage() {
                   <Button
                     variant="cs-type2"
                     btnLink="/faq"
-                    btnText="Documentation"
+                    btnText="Timeline"
                     icon={
                       <Icon icon="material-symbols:content-copy-outline-rounded" />
                     }
@@ -76,7 +76,7 @@ export default function FaqPage() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Let’s disscus, make <br />something <i>cool</i> together"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"

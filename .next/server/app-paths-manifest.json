@@ -1,7 +1,9 @@
 {
   "/service/[slug]/page": "app/service/[slug]/page.js",
-  "/team/page": "app/team/page.js",
-  "/team/[teamDetailsId]/page": "app/team/[teamDetailsId]/page.js",
+  "/service/page": "app/service/page.js",
+  "/portfolio/[portfolioDetailsId]/page": "app/portfolio/[portfolioDetailsId]/page.js",
   "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/contact/page": "app/contact/page.js",
+  "/portfolio/page": "app/portfolio/page.js",
+  "/about/page": "app/about/page.js"
 }

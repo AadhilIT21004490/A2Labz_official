@@ -9,16 +9,20 @@ import Button from "@/app/ui/Button";
 import portfolioData from "@/data/portfolioData.json";
 
 export default function PortfolioDetails({ params }) {
-  const data = portfolioData.find((item) => item.slug === params.slug);
+  const currentIndex = portfolioData.findIndex(item => item.slug === params.slug);
+  
+  if (currentIndex === -1) return notFound();
 
-  if (!data) return notFound();
+  const data = portfolioData[currentIndex];
+  const prevProject = currentIndex > 0 ? portfolioData[currentIndex - 1] : null;
+  const nextProject = currentIndex < portfolioData.length - 1 ? portfolioData[currentIndex + 1] : null;
 
   return (
     <>
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Image
-          src={data.src}
+          src={data.lands}
           alt={data.title}
           width={1200}
           height={650}
@@ -71,12 +75,23 @@ export default function PortfolioDetails({ params }) {
         <Spacing lg="65" md="10" />
 
         <Div className="cs-page_navigation cs-center">
-          <Div>
-            <Button btnLink="/portfolio" btnText="Prev Project" variant="cs-type1" />
-          </Div>
-          <Div>
-            <Button btnLink="/portfolio" btnText="Next Project" />
-          </Div>
+          {prevProject && (
+            <Div>
+              <Button
+                btnLink={`/portfolio/${prevProject.slug}`}
+                btnText="Prev Project"
+                variant="cs-type1"
+              />
+            </Div>
+          )}
+          {nextProject && (
+            <Div>
+              <Button
+                btnLink={`/portfolio/${nextProject.slug}`}
+                btnText="Next Project"
+              />
+            </Div>
+          )}
         </Div>
       </Div>
 

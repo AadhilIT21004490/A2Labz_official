@@ -21,6 +21,7 @@
     "Location": "United States",
     "href": "/portfolio/ips-llc-usa",
     "slug": "ips-llc-usa",
+    "lands": "/images/port_l/ipsfull.png",
     "src": "/images/port/ipsfull.png",
     "category": "Web Application"
   },
@@ -32,6 +33,7 @@
     "Client": "IIBT Campus",
     "slug": "iibt-campus",
     "Location": "Sri Lanka",
+    "lands": "/images/port_l/iibt.png",
     "href": "/portfolio/iibt-campus",
     "src": "/images/port/iibt.png",
     "category": "Web Application"
@@ -45,6 +47,7 @@
     "Client": "Bento By N",
     "Location": "Sri Lanka",
     "href": "/portfolio/bento",
+    "lands": "/images/port_l/bento.png",
     "src": "/images/port/bento.png",
     "category": "Web Application"
   },
@@ -56,6 +59,7 @@
     "slug": "al-thario",
     "Client": "Al-Thario",
     "Location": "Dubai, UAE",
+    "lands": "/images/port_l/1.png",
     "href": "/portfolio/al-thario",
     "src": "/images/port/al-thario.jpg",
     "category": "Digital Product"
@@ -67,6 +71,7 @@
     "status": "Completed",
     "slug": "crestpoint",
     "Client": "Crestpoint",
+    "lands": "/images/port_l/3.png",
     "Location": "UAE",
     "href": "/portfolio/crestpoint",
     "src": "/images/port/crest.jpg",
@@ -81,6 +86,7 @@
     "Client": "IPS LLC",
     "Location": "United States",
     "href": "/portfolio/ips-llc",
+    "lands": "/images/port_l/5.png",
     "src": "/images/port/ips.jpg",
     "category": "Digital Product"
   },
@@ -92,6 +98,7 @@
     "Client": "Wood Heaven pvt ltd",
     "slug": "wood-heaven-pvt-ltd",
     "Location": "Sri Lanka",
+    "lands": "/images/port_l/7.png",
     "href": "/portfolio/wood-heaven-pvt-ltd",
     "src": "/images/port/wh.jpg",
     "category": "Digital Product"
@@ -103,6 +110,7 @@
     "status": "Completed",
     "Client": "iBlack",
     "slug": "iblack",
+    "lands": "/images/port_l/8.png",
     "Location": "Colombo, Sri Lanka",
     "href": "/portfolio/iblack",
     "src": "/images/port/iblack.jpg",
@@ -116,6 +124,7 @@
     "Client": "AWA Industries",
     "slug": "awa-industries",
     "Location": "Colombo, Sri Lanka",
+    "lands": "/images/port_l/2.png",
     "href": "/portfolio/awa-industries",
     "src": "/images/port/awa.jpg",
     "category": "Digital Product"
@@ -128,6 +137,7 @@
     "Client": "ETMA Campus",
     "slug": "etma-campus",
     "Location": "Sri Lanka",
+    "lands": "/images/port_l/4.png",
     "href": "/portfolio/etma-campus",
     "src": "/images/port/etma.jpg",
     "category": "Digital Product"
@@ -140,6 +150,7 @@
     "Client": "ACL Academy",
     "slug": "acl-academy",
     "Location": "Sri Lanka",
+    "lands": "/images/port/acl.jpg",
     "href": "/portfolio/acl-academy",
     "src": "/images/port/acl.jpg",
     "category": "Digital Product"
@@ -152,6 +163,7 @@
     "slug": "lords-sports-club",
     "Client": "Lords Sports Club",
     "Location": "Eastern Sri Lanka",
+    "lands": "/images/port_l/6.png",
     "href": "/portfolio/lords-sports-club",
     "src": "/images/port/lords.jpg",
     "category": "Digital Product"
@@ -163,7 +175,8 @@
     "status": "Completed",
     "slug": "gluco-guide",
     "Client": "GlucoGuide",
-    "Location": "United Kingdom",
+    "Location": "United Kingdom",    
+    "lands": "/images/port/gluco.jpg",
     "href": "/portfolio/gluco-guide",
     "src": "/images/port/gluco.jpg",
     "category": "Mobile Application"
